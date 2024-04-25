@@ -27,6 +27,7 @@ console.log(typeof true);
 console.log(typeof null);
 console.log(typeof undefined);
 console.log(typeof Symbol);
+console.log(typeof 10);
 
 
 
