@@ -23,3 +23,21 @@ let myFunction = function(){
 }
 
 //typeof operator => https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+
+/****************MEMORY************ */
+/*
+1. stack memory => primitive => jo bhi variable humne declare kiya hai  uski ek copy milti hai
+2. heap memory  => Non-primitive => hume reference milta hai , koi bhi change hume original value me hota hai
+ */
+
+
+//stack memory
+let myName = "Gaurav"
+let anotherName = myName
+console.log(myName);
+console.log(anotherName);
