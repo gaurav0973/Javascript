@@ -43,6 +43,10 @@ shift() and unshift() are methods that can be used with arrays to manipulate the
 
 
 //✍️✍️✍️INTERVIEW => slice , splice
+/*
+1. slice(start , end not included) -> original array is not changes
+2. splice(start , end included) -> original array is changed
+*/
 
 console.log("A => ", myArr);
 const myn1 = myArr.slice(1,3)
@@ -54,8 +58,4 @@ const myn2 = myArr.splice(1,3)
 console.log(myn2);
 console.log("C => " , myArr);
 
-/*
-1. slice(start , end not included) -> original array is not changes
-2. splice(start , end included) -> original array is changed
-*/
 
