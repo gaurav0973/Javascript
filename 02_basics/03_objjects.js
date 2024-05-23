@@ -1,5 +1,5 @@
 /*
-singleton 
+singleton object
 1. object litrals ki tarah declarre karte hai to singleton nahi banta hai
 2. construcor s banayenge to singleton banega --> Object.create()
 */
